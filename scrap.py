@@ -50,4 +50,5 @@ print(len(company_link))
 print(len(location_link))
 for i in range(len(company_link)):
 	print(str(company_link[i].text),"  ",str(title[i].text),"  ",str(location_link[i].text))
+	print('\n')
 	
